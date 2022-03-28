@@ -36,8 +36,8 @@ function renderBox() {
     $game.innerHTML = ''
     var box = document.createElement('div')
     box.style.position = 'absolut'
-    box.style.top ='50px'
-    box.style.left = '50px'
+    box.style.top ='55px'
+    box.style.left = '55px'
     box.style.height = box.style.width = '100px'
     box.style.backgroundColor = $input.value
     box.setAttribute('data-box','true')
